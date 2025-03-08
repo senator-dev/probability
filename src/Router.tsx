@@ -8,6 +8,8 @@ const router = createBrowserRouter([
   },
 ]);
 
-export function Router() {
+function Router() {
   return <RouterProvider router={router} />;
 }
+
+export {Router, router};
