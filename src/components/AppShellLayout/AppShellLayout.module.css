@@ -1,0 +1,22 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.fixedContainer {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid var(--mantine-color-gray-3);
+    border-left: 1px solid var(--mantine-color-gray-3);
+    margin: 0px;
+    padding: 0px
+}
+
+.main {
+}

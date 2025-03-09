@@ -1,0 +1,5 @@
+.ipynbContainer {
+    width: 100%;
+    border: 1px dashed var(--mantine-color-gray-3);
+    height: calc(100dvh - var(--app-shell-header-offset, 0rem) - var(--app-shell-footer-offset, 0rem));;
+}
